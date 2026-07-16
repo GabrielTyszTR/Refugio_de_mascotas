@@ -1,0 +1,88 @@
+
+body{
+    background-color: blanchedalmond;
+    font-family:  "Bitcount Grid Double", system-ui;
+    margin: 0px;
+}
+<!-- hola p{
+    background-color: aqua;
+    text-align: justify;
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}  
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&display=swap');
+texto_distinto{
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    background-color: beige;
+}-->
+
+.tarjeta{
+    background-color: aquamarine;
+    border-radius: 10px;
+    box-shadow: 16px -6px 48px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 16px -6px 48px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 16px -6px 48px 0px rgba(0,0,0,0.75);
+}
+.tarjeta img{
+    width: 180px;
+    height: 110px;
+    border-radius: 10px;
+}
+.contenedor-tarjetas{
+    display: flex;
+    justify-content: space-around;
+    margin:10px;
+    border:2px ;
+    padding: 15px;
+}
+.tarjeta-datos{
+    display: flex;
+    background-color: beige;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 10px;
+}
+.tarjeta-datos h3{
+    margin: 0;
+}
+header {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+}
+.enlaces{
+    display: flex;
+    list-style: none;
+    width: 450px;
+    justify-content:space-between;
+    
+}
+.link{
+    color: black;
+    font-size: large;
+    text-decoration: none;
+}
+footer{
+    background-color:white;
+    height: 20px;
+}
+footer p{
+    margin: 0;
+    text-align: center;
+    margin-top: 45px;
+}
+h2{
+    text-align: center;
+}
+.nosotros{
+    display: flex;
+    padding: 30px;
+    border-radius: 30px;
+    margin:20px;
+}
